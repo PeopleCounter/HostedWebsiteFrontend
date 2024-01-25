@@ -10,7 +10,7 @@ function LogDetails()
     useEffect(()=>{
             async function non_ultra_plus(){
 
-                await fetch(`https://hostedwebsitebackend-pqob.onrender.com/logs/general/${id}`,{
+                await fetch(`https://counterbackend-nflm.onrender.com/logs/general/${id}`,{
                 headers:{"Content-Type":"application/json"},
                 method:"GET"
             }).catch((err)=>{
