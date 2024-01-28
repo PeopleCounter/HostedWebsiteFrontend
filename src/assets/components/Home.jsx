@@ -29,7 +29,7 @@ function Home(props)
         let padding = 50
         async function getDate(){
         let new_res = []
-        let result = await fetch('https://counterbackend-nflm.onrender.com/dates/getDates',{
+        let result = await fetch('https://react-backend-final.vercel.app/dates/getDates',{
             headers:{"Content-Type":"application/json"},
             method:"GET",
         }).then(async(result)=>{
