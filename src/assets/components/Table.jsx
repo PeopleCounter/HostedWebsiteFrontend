@@ -14,7 +14,7 @@ export default function Table() {
 
         async function fetchGuest(){
 
-            let res =  await fetch('https://counterbackend-nflm.onrender.com/logs/getGuestUsers',{
+            let res =  await fetch('https://react-backend-final.vercel.app/logs/getGuestUsers',{
                 headers:{"Content-Type":"application/json"},
                 method:"GET"
             }).then((res)=>{
