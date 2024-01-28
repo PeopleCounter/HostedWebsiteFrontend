@@ -50,7 +50,7 @@ function LogDetails()
         }
         let timr = setInterval(
         async ()=>{
-            await fetch(`https://hostedwebsitebackend-pqob.onrender.com/logs/general/${id}`,{
+            await fetch(`https://react-backend-final.vercel.app/logs/general/${id}`,{
                 headers:{"Content-Type":"application/json"},
                 method:"GET"
             }).catch((err)=>{
