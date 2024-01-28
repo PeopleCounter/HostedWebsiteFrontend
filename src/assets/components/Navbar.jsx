@@ -6,7 +6,7 @@ function Navbar()
 {
     function logout()
     {
-        fetch("https://counterbackend-nflm.onrender.com/auth/logout",
+        fetch("https://react-backend-final.vercel.app/auth/logout",
         {
             method : "POST",
             headers : {"Content-Type":"application/json"},
