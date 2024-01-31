@@ -144,7 +144,7 @@ function Home(props)
                         <i className="fa-solid fa-clock"></i>
                         </div>
                         <div className="hour">
-                            <p>1{props.counts.busiest_hour}</p>
+                            <p>{props.counts.busiest_hour}</p>
                         </div>
                     </div>
                     <div className="busy2" style={{color:"#fff"}}>
